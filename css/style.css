@@ -1,0 +1,190 @@
+html,
+
+body {
+	height: 100%;
+}
+
+
+header {
+float: left;
+height: 100px;
+width: 100%;
+	position: top;
+}
+
+
+body {
+		background-color: cornflowerblue;
+		background-image: url(../images/bg.jpg);
+			background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover; 
+		font-family: Helvetica, Arial, sans-serif;
+}
+
+/* This is a css comment*/
+
+table {
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	background-color: white;
+}
+
+th{
+	background-color: grey;
+	color: white;
+	}
+
+h1{
+	text-align: center;
+	color: navy;
+	margin: 0;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 50px;
+	text-shadow: 0 5px 5px blue;
+}
+
+h2{
+	text-align: center;
+	margin: 0;
+	color: indigo;
+	font-weight: normal;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-family: 'Permanent Marker', cursive;
+	}
+
+img{
+	display: block;
+	margin: 0 auto;  /* Centers the element*/
+	border: 10px dashed navy;
+	width: 200px;
+}
+
+#me{
+	display: block;
+	margin: 0 auto;  /* Centers the element*/
+	border: 10px dashed navy;
+	border-radius: 40%;
+	width: 200px;
+}
+
+#me:hover{
+	transform: rotateZ(360deg);
+	display: block;
+	transition: transform 450ms;
+}
+
+.banana{
+	color: blue;
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+	letter-spacing: 10px
+	text-transform: uppercase;
+	font-family: 'Permanent Marker', cursive;
+}
+
+h3{
+	color: papayawhip;
+	margin-bottom: 0;
+}
+
+h3 span:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+h3 + * {
+
+	display: none;
+}
+
+/* This is a css 
+
+comment*/
+
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	clear: left;
+}
+
+a {
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+display: inline-block;
+}
+
+.main {
+	background-color: rgba(101,156,239,0.75);
+	border: 1px grey;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 30px;
+	box-shadow: 0 0 10px 10px white;
+}
+
+button {
+	background-color: white;
+}
+
+#twitter {
+	display: inline-block;
+	border: 1px black;
+	border-image: 0;
+	width: 25px;
+	margin: 0 auto;	
+}
+
+#linkedin {
+	display: inline-block;
+	border: 1px black;
+	border-image: 0;
+	width: 100px;
+	margin: 0 auto;	
+}
+
+
+#twitter:hover{
+	display: inline-block;
+	border: 1px black;
+	border-image: 0;
+	width: 25px;
+	margin: 0 auto;	
+}
+
+#linkedin:hover{
+	display: inline-block;
+	border: 1px black;
+	border-image: 0;
+	width: 100px;
+	margin: 0 auto;	
+}
+
+#facebook {
+	display: inline-block;
+	border: 1px black;
+	border-image: 0;
+	width: 50px;
+	margin: 0 auto;	
+}
+
+#facebook:hover{
+	display: inline-block;
+	border: 1px black;
+	border-image: 0;
+	width: 50px;
+	margin: 0 auto;	
+}
